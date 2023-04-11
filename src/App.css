@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+.wrper {
+  background-image: url("./image.png");
+  background-blend-mode: darken;
+  background-color: #0000005b;
+  width: 98%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 1%;
+  background-position: top;
+}
+
+h1 {
+  margin: 2px;
+  color: yellow;
+  font-size: 40px;
+  font-family: cursive;
+  letter-spacing: -3px;
+}
+
+p {
+  margin: 2px;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  background: #FFC107;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 15px 0px;
+}
+
+strong {
+  color: red;
+  font-size: 20px;
+}

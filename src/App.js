@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="wrper">
+        <h1>Winza Live Games</h1>
+        <p>Please click on the download button to download the Game.</p>
+        <a href={require('./winZa.apk')} download>Download</a>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <strong>Hint:</strong> download the app no your device and click on
+          install anyway to install on your device. <br />
+          Don't worry this Game is completely Harmfree as It won't ask for any
+          addition permission on your Device.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }
