@@ -6,7 +6,7 @@ function App() {
       <div className="wrper">
         <h1>Winza Live Games</h1>
         <p>Please click on the download button to download the Game.</p>
-        <a href={require('./winza-game.apk')} download>Download</a>
+        <a href={require('./winza-gamev2.0.apk')} download>Download</a>
         <p>
           <strong>Hint:</strong> download the app no your device and click on
           install anyway to install on your device. <br />
